@@ -8,7 +8,7 @@ import (
 var db *gorm.DB
 
 type Seed struct {
-	//gorm.model
+	gorm.Model
 	SpeciesName string `gorm:"" json:"species"`
 	VarietyName string `json:"variety"`
 	//Classification string `json:"classification"`

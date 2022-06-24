@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	_ "github.com/jinzhu/gorm/dialects/mssql"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"github.com/lazazael/go-crud-mysql-seedstore/pkg/routes"
 	"log"
 	"net/http"
